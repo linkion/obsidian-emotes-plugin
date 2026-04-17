@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"name": "obsidian-emotes-plugin",
+	"version": "0.1.0",
+	"description": "Add emoji shortcodes, fuzzy emote search, and community emoji packs to Obsidian.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
@@ -24,6 +24,7 @@
 		"jiti": "2.6.1"
 	},
 	"dependencies": {
+		"emojibase-data": "^17.0.0",
 		"obsidian": "latest"
 	}
 }

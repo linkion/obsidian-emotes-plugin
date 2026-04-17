@@ -6,3 +6,44 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+.emotes-suggestion {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.emotes-suggestion-emoji {
+    width: 1.5rem;
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.emotes-suggestion-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.emotes-suggestion-label {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.emotes-suggestion-shortcode {
+    font-size: 0.8rem;
+    opacity: 0.72;
+    line-height: 1.2;
+}
+
+.emotes-rendered-emote {
+    vertical-align: text-bottom;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.emotes-rendered-image {
+    max-height: 1.2em;
+    width: auto;
+    vertical-align: text-bottom;
+}
